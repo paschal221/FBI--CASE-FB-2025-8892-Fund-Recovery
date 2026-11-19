@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FBI Case #FB-2024-8892 | Fund Recovery</title>
+    <style>
+        /* RESET & BASICS */
+        body {
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+        }
+        
+        /* HEADER */
+        header {
+            background-color: #002b5c; /* Official FBI Dark Blue */
+            color: white;
+            padding: 15px 0;
+            border-bottom: 4px solid #b22234; /* FBI Red Accent */
+        }
+        .header-content {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 20px;
+            display: flex;
+            align-items: center;
+        }
+        .seal {
+            width: 50px;
+            height: auto;
+            margin-right: 15px;
+        }
+        .agency-name {
+            font-size: 18px;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        /* MAIN CONTAINER */
+        .container {
+            max-width: 700px;
+            margin: 40px auto;
+            background: white;
+            padding: 40px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            border-radius: 4px;
+        }
+
+        /* HEADINGS & TEXT */
+        h1 {
+            color: #002b5c;
+            font-size: 24px;
+            margin-top: 0;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 15px;
+        }
+        .case-id {
+            font-size: 14px;
+            color: #666;
+            margin-bottom: 20px;
+        }
+        p {
+            margin-bottom: 20px;
+            font-size: 16px;
+        }
+        .alert-box {
+            background-color: #fff3cd;
+            border: 1px solid #ffeeba;
+            color: #856404;
+            padding: 15px;
+            border-radius: 4px;
+            margin-bottom: 25px;
+            font-weight: bold;
+        }
+
+        /* STATUS BAR */
+        .status-track {
+            display: flex;
+            justify-content: space-between;
+            margin: 30px 0;
+            position: relative;
+        }
+        .step {
+            text-align: center;
+            width: 30%;
+            position: relative;
+            z-index: 2;
+        }
+        .circle {
+            width: 30px;
+            height: 30px;
+            background: #ddd;
+            border-radius: 50%;
+            margin: 0 auto 10px;
+            line-height: 30px;
+            color: white;
+            font-weight: bold;
+        }
+        .step.completed .circle { background: #28a745; } /* Green */
+        .step.active .circle { background: #ffc107; color: black; } /* Yellow/Orange */
+        .step-label { font-size: 12px; color: #555; }
+
+        /* PAYMENT BUTTON */
+        .btn-primary {
+            display: block;
+            width: 100%;
+            padding: 18px;
+            background-color: #b22234; /* FBI Red */
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+            border-radius: 4px;
+            transition: background 0.3s;
+            box-sizing: border-box;
+        }
+        .btn-primary:hover {
+            background-color: #8a1c29;
+        }
+        .secure-note {
+            text-align: center;
+            font-size: 12px;
+            color: #888;
+            margin-top: 15px;
+        }
+
+        /* FOOTER */
+        footer {
+            text-align: center;
+            font-size: 12px;
+            color: #888;
+            padding: 20px;
+            border-top: 1px solid #ddd;
+            margin-top: 40px;
+        }
+
+        /* MOBILE OPTIMIZATION */
+        @media (max-width: 600px) {
+            .container { padding: 20px; margin: 20px 10px; }
+            .header-content { flex-direction: column; text-align: center; }
+            .seal { margin: 0 0 10px 0; }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="header-content">
+            <!-- FBI Seal Link -->
+            <img src="https://upload.wikimedia.org/wikipedia/commons/e/e6/FBI_Seal.svg" alt="FBI Seal" class="seal">
+            <div class="agency-name">Federal Bureau of Investigation<br><span style="font-size:12px; font-weight:normal;">Internet Crime Complaint Center</span></div>
+        </div>
+    </header>
+
+    <div class="container">
+        <h1>Case Update: Fund Recovery Initiated</h1>
+        <div class="case-id">Case Number: <strong>FB-2024-8892</strong> | Date: November 19, 2026</div>
+
+        <p>Dear Mr./Ms. [Victim Name],</p>
+        
+        <p>Our forensic division has successfully located your remaining funds from the previous incident. The total recoverable amount is currently held in a secure escrow account.</p>
+
+        <div class="alert-box">
+            ⚠️ ACTION REQUIRED: Your funds will be reallocated within 24 hours if verification is not completed.
+        </div>
+
+        <!-- Visual Status Tracker -->
+        <div class="status-track">
+            <div class="step completed">
+                <div class="circle">✓</div>
+                <div class="step-label">Funds Found</div>
+            </div>
+            <div class="step active">
+                <div class="circle">2</div>
+                <div class="step-label">Verification</div>
+            </div>
+            <div class="step">
+                <div class="circle">3</div>
+                <div class="step-label">Release</div>
+            </div>
+        </div>
+
+        <p>To release the full balance to your bank account, a small administrative processing fee is required. This fee is standard for cross-border wire transfers and is deducted from your total payout.</p>
+
+        <p><strong>Total Recoverable:</strong> $15,000.00<br>
+        <strong>Processing Fee:</strong> $250.00</p>
+
+        <a href="#" class="btn-primary">VERIFY IDENTITY & PAY FEE</a>
+        
+        <div class="secure-note">🔒 Secured by 256-bit SSL Encryption | Case #FB-2024-8892</div>
+    </div>
+
+    <footer>
+        Federal Bureau of Investigation<br>
+        935 Pennsylvania Avenue NW, Washington, D.C. 20535<br>
+        © 2026 FBI. All Rights Reserved.
+    </footer>
+
+</body>
+</html>
